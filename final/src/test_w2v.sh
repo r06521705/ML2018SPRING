@@ -1,0 +1,1 @@
+python3 test_w2v.py $1

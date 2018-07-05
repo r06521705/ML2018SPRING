@@ -1,0 +1,1 @@
+python3 w2v.py $1
