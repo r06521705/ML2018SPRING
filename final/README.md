@@ -1,11 +1,11 @@
-套件版本
-  numpy 1.13.0
-  scipy 1.0.0
-  pandas 0.20.1
-  jieba 0.38
-  re 2.2.1
-  gensim 3.1.0
-  keras 2.0.8
+套件版本：
+numpy 1.13.0
+scipy 1.0.0
+pandas 0.20.1
+jieba 0.38
+re 2.2.1
+gensim 3.1.0
+keras 2.0.8
 
 1. 訓練w2v的模型
     請用以下指令來執行 w2v.sh 這個shell script來產生w2v模型。
