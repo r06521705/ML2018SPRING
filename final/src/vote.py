@@ -2,9 +2,9 @@ import csv
 import pandas as pd
 import numpy as np
 
-me = pd.read_csv('pred/vote_csv/ansm2.csv', header=0)
-claw = pd.read_csv('pred/vote_csv/ansm3.csv', header=0)
-third = pd.read_csv('pred/vote_csv/nn_ans.csv', header=0)
+me = pd.read_csv('pred/vote_csv/merge2.csv', header=0)
+claw = pd.read_csv('pred/vote_csv/merge3.csv', header=0)
+third = pd.read_csv('pred/vote_csv/merge1.csv', header=0)
 
 cnt = 0
 same_list = []
