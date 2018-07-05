@@ -24,14 +24,14 @@
    bash test_w2v.sh <testing data csv>
   
    其中<testing data csv> 是testing_data.csv的所在路徑
-   執行完後產出的csv檔會存在這個repository中的 final/src/pred 的資料夾中
+   執行完後產出的csv檔會存在這個repository中的 final/src/pred 的資料夾中。
 
 3. 產出使用nn來預測的csv檔
    請執行
    
    bash train_nn.sh <training data file> <testing data csv>
   
-   執行完後產出的csv檔會存在這個repository中的 final/src/pred 的資料夾中
+   執行完後產出的csv檔會存在這個repository中的 final/src/pred 的資料夾中。
    
 4. 把三個上傳到kaggle上結果不錯的csv檔做voting
    請執行
@@ -41,7 +41,7 @@
    vote.sh會執行vote.py，vote.py會去讀取 final/src/pred/vote_csv 中的三個csv檔來做voting
    voting完後產生的csv檔會存在 final/src/pred/merged_csv 的資料夾中
    
-   在 final/src/pred/merged_csv 中的 merge.csv 就是可以reproduce kaggle成績的 csv檔
+   在 final/src/pred/merged_csv 中的 merge.csv 就是可以reproduce kaggle成績的 csv檔。
    
    
    
