@@ -78,7 +78,7 @@ for i in test_data.options.tolist():
 
 
 from gensim.models import KeyedVectors
-word_vectors = KeyedVectors.load('models/word2vec128m1w10it50.txt')
+word_vectors = KeyedVectors.load('models/word2vec64m1w20iter100.txt')
 
 
 # In[27]:
